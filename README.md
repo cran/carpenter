@@ -3,16 +3,24 @@
 carpenter: Making Tables
 ========================
 
-[![Travis-CI Build Status](https://travis-ci.org/lwjohnst86/carpenter.svg?branch=master)](https://travis-ci.org/lwjohnst86/carpenter)
+[![Travis-CI Build Status](https://travis-ci.org/lwjohnst86/carpenter.svg?branch=master)](https://travis-ci.org/lwjohnst86/carpenter) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/carpenter)](https://cran.r-project.org/package=carpenter)
 
 The main goal of carpenter to help make those pesky descriptive/basic characteristic tables often used in biomedical journal articles easier to make and put together. Right now, this package is focused on those types of tables, but I plan to expand to other similarly used table types.
 
 Installation
 ============
 
-It's up on GitHub right now, so to install:
+This package is on CRAN, so install using:
 
-    devtools::install_github('lwjohnst86/carpenter')
+``` r
+install.packages('carpenter')
+```
+
+For the developmental version, install from GitHub:
+
+``` r
+devtools::install_github('lwjohnst86/carpenter')
+```
 
 Example usage
 =============
@@ -46,3 +54,4 @@ There are several packages out there that help with making tables. They work to 
 -   [`pixiedust`](https://cran.r-project.org/package=pixiedust)
 -   [`stargazer`](https://cran.r-project.org/package=stargazer) ([tutorial](http://jakeruss.com/cheatsheets/stargazer.html))
 -   [`htmlTable`](https://cran.r-project.org/package=htmlTable)
+-   [`tableone`](https://cran.r-project.org/package=tableone)
